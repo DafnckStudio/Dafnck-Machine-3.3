@@ -1,0 +1,7 @@
+{
+  "project_name": "PommeDelice Website",
+  "project_description": "A website to sell apple fruit directly from local producers.",
+  "tasks_file": "tasks.json",
+  "agents_dir": "01_Machine/02_Agents/",
+  "prd_input_file": "Project.md"
+}

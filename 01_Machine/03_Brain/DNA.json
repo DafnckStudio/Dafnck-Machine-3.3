@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "3.1.0",
-    "last_updated": "2025-01-06T22:06:00.000Z"
+    "last_updated": "2024-06-18T20:15:00.123456Z"
   },
   "workflow_state": {
     "current_step": "P01-S01-T01-User-Profile-Development",
@@ -16,10 +16,10 @@
       "percentage": 0
     },
     "session": {
-      "started_at": "2025-01-06T22:03:21.000Z",
-      "last_updated": "2025-01-06T22:06:00.000Z",
+      "started_at": "2024-06-18T20:15:00.123456Z",
+      "last_updated": "2024-06-18T20:15:00.123456Z",
       "status": "in_progress",
-      "project_type": "web_application"
+      "project_type": "PommeDelice E-commerce Website"
     }
   },
   "agentRegistry": [
