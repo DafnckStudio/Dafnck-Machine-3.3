@@ -1,24 +1,24 @@
 {
   "metadata": {
     "version": "3.1.0",
-    "last_updated": "2024-06-18T23:00:00.444444Z"
+    "last_updated": "2025-06-18T17:24:22.955054+00:00"
   },
   "workflow_state": {
-    "current_step": null,
-    "current_phase": "phase_1_complete",
-    "current_task": null,
-    "previous_step": "P01-S01-T05-Technical-Constraints",
-    "next_step": null,
+    "current_step": "P02-S02-T02-Market-Opportunity-Analysis",
+    "current_phase": "phase_2_discovery_strategy",
+    "current_task": "P02-S02-T02-Market-Opportunity-Analysis",
+    "previous_step": "P02-S02-T01-Problem-Statement-Refinement",
+    "next_step": "P02-S02-T03-User-Validation-Research",
     "progress": {
-      "total_steps": 5,
-      "completed_steps": 5,
-      "current_step_number": 5,
-      "percentage": 100
+      "total_steps": 8,
+      "completed_steps": 1,
+      "current_step_number": 2,
+      "percentage": 12
     },
     "session": {
       "started_at": "2024-06-18T20:15:00.123456Z",
-      "last_updated": "2024-06-18T23:00:00.444444Z",
-      "status": "phase_1_complete",
+      "last_updated": "2025-06-18T17:24:22.955054+00:00",
+      "status": "in_progress",
       "project_type": "PommeDelice E-commerce Website"
     }
   },
@@ -27,46 +27,132 @@
       "agentName": "uber-orchestrator-agent",
       "id": "ORCH-001",
       "name": "Uber Orchestrator Agent",
-      "capabilities": ["workflow_coordination", "state_management", "task_delegation", "progress_tracking"],
+      "capabilities": [
+        "workflow_coordination",
+        "state_management",
+        "task_delegation",
+        "progress_tracking"
+      ],
       "persona": "system_orchestrator",
-      "phases": ["phase_1"],
-      "workflow_steps": ["all"]
+      "phases": [
+        "phase_1",
+        "phase_2_discovery_strategy"
+      ],
+      "workflow_steps": [
+        "all"
+      ]
     },
     {
       "agentName": "nlu-processor-agent",
       "id": "NLU-001",
       "name": "NLU Processor Agent",
-      "capabilities": ["user_profiling", "requirement_extraction", "natural_language_processing"],
+      "capabilities": [
+        "user_profiling",
+        "requirement_extraction",
+        "natural_language_processing"
+      ],
       "persona": "expert_analyst",
-      "phases": ["phase_1"],
-      "workflow_steps": ["P01-S01-T01-User-Profile-Development"]
+      "phases": [
+        "phase_1"
+      ],
+      "workflow_steps": [
+        "P01-S01-T01-User-Profile-Development"
+      ]
     },
     {
       "agentName": "elicitation-agent",
       "id": "ELICIT-001",
       "name": "Requirements Elicitation Agent",
-      "capabilities": ["requirement_extraction", "user_interview", "stakeholder_mapping", "requirements_analysis"],
+      "capabilities": [
+        "requirement_extraction",
+        "user_interview",
+        "stakeholder_mapping",
+        "requirements_analysis"
+      ],
       "persona": "expert_business_analyst",
-      "phases": ["phase_1"],
-      "workflow_steps": ["P01-S01-T02-Project-Vision-Elicitation", "P01-S01-T03-Success-Criteria-Definition", "P01-S01-T04-Requirement-Analysis", "P01-S01-T05-Technical-Constraints"]
+      "phases": [
+        "phase_1"
+      ],
+      "workflow_steps": [
+        "P01-S01-T02-Project-Vision-Elicitation",
+        "P01-S01-T03-Success-Criteria-Definition",
+        "P01-S01-T04-Requirement-Analysis",
+        "P01-S01-T05-Technical-Constraints"
+      ]
     },
     {
       "agentName": "scribe-agent",
       "id": "SCRIBE-001",
       "name": "✍️ Scribe Agent",
-      "capabilities": ["documentation_management", "knowledge_capture", "information_organization", "meeting_notes_capture"],
+      "capabilities": [
+        "documentation_management",
+        "knowledge_capture",
+        "information_organization",
+        "meeting_notes_capture"
+      ],
       "persona": "documentation_specialist",
-      "phases": ["phase_1"],
-      "workflow_steps": ["all"]
+      "phases": [
+        "phase_1",
+        "phase_2_discovery_strategy"
+      ],
+      "workflow_steps": [
+        "all"
+      ]
     },
     {
       "agentName": "task-sync-agent",
       "id": "SYNC-001",
       "name": " Task Sync Agent",
-      "capabilities": ["task_data_synchronization", "conflict_resolution", "data_integrity_validation", "multi_system_integration"],
+      "capabilities": [
+        "task_data_synchronization",
+        "conflict_resolution",
+        "data_integrity_validation",
+        "multi_system_integration"
+      ],
       "persona": "synchronization_specialist",
-      "phases": ["phase_1"],
-      "workflow_steps": ["all"]
+      "phases": [
+        "phase_1",
+        "phase_2_discovery_strategy"
+      ],
+      "workflow_steps": [
+        "all"
+      ]
+    },
+    {
+      "agentName": "prd-architect-agent",
+      "id": "PRD-ARCH-001",
+      "name": "PRD Architect Agent",
+      "capabilities": [
+        "problem_statement_refinement",
+        "market_analysis",
+        "prd_generation"
+      ],
+      "persona": "strategic_product_planner",
+      "phases": [
+        "phase_2_discovery_strategy"
+      ],
+      "workflow_steps": [
+        "P02-S02-T01-Problem-Statement-Refinement",
+        "P02-S02-T02-Market-Opportunity-Analysis"
+      ]
+    },
+    {
+      "agentName": "market-research-agent",
+      "id": "MRKT-RES-001",
+      "name": "Market Research Agent",
+      "capabilities": [
+        "market_analysis",
+        "competitor_research",
+        "trend_identification"
+      ],
+      "persona": "market_analyst",
+      "phases": [
+        "phase_2_discovery_strategy"
+      ],
+      "workflow_steps": [
+        "P02-S02-T02-Market-Opportunity-Analysis",
+        "P02-S02-T03-User-Validation-Research"
+      ]
     }
   ],
   "workflow_progression": {
@@ -75,7 +161,10 @@
       "P01-S01-T02-Project-Vision-Elicitation",
       "P01-S01-T03-Success-Criteria-Definition",
       "P01-S01-T04-Requirement-Analysis",
-      "P01-S01-T05-Technical-Constraints"
+      "P01-S01-T05-Technical-Constraints",
+      "P02-S02-T01-Problem-Statement-Refinement",
+      "P02-S02-T02-Market-Opportunity-Analysis",
+      "P02-S02-T03-User-Validation-Research"
     ],
     "auto_progression": false,
     "require_completion_confirmation": true
@@ -125,26 +214,71 @@
       "estimated_duration_minutes": 30,
       "previous_task": "P01-S01-T04-Requirement-Analysis",
       "next_task": null
+    },
+    "P02-S02-T01-Problem-Statement-Refinement": {
+      "agent": "prd-architect-agent",
+      "phase": "phase_2_discovery_strategy",
+      "task_id": "P02-S02-T01",
+      "file_path": "01_Machine/01_Workflow/Phase 2: Discovery & Strategy/02_Problem_Validation/P02-S02-T01-Problem-Statement-Refinement.md",
+      "estimated_duration_minutes": 60,
+      "previous_task": "P01-S01-T05-Technical-Constraints",
+      "next_task": "P02-S02-T02-Market-Opportunity-Analysis"
+    },
+    "P02-S02-T02-Market-Opportunity-Analysis": {
+      "agent": "market-research-agent",
+      "phase": "phase_2_discovery_strategy",
+      "task_id": "P02-S02-T02",
+      "file_path": "01_Machine/01_Workflow/Phase 2: Discovery & Strategy/02_Problem_Validation/P02-S02-T02-Market-Opportunity-Analysis.md",
+      "estimated_duration_minutes": 90,
+      "previous_task": "P02-S02-T01-Problem-Statement-Refinement",
+      "next_task": "P02-S02-T03-User-Validation-Research"
+    },
+    "P02-S02-T03-User-Validation-Research": {
+      "agent": "market-research-agent",
+      "phase": "phase_2_discovery_strategy",
+      "task_id": "P02-S02-T03",
+      "file_path": "01_Machine/01_Workflow/Phase 2: Discovery & Strategy/03_Market_Research/P02-S02-T03-User-Validation-Research.md",
+      "estimated_duration_minutes": 120,
+      "previous_task": "P02-S02-T02-Market-Opportunity-Analysis",
+      "next_task": null
     }
   },
   "tracking_functions": {
     "start_workflow": {
       "description": "Initialize workflow tracking for a new project",
-      "updates": ["workflow_state.session", "workflow_state.current_step", "workflow_state.progress"],
+      "updates": [
+        "workflow_state.session",
+        "workflow_state.current_step",
+        "workflow_state.progress"
+      ],
       "sets_current_step": "P01-S01-T01-User-Profile-Development"
     },
     "complete_step": {
       "description": "Mark current step as complete and move to next",
-      "updates": ["workflow_state.previous_step", "workflow_state.current_step", "workflow_state.next_step", "workflow_state.progress"],
+      "updates": [
+        "workflow_state.previous_step",
+        "workflow_state.current_step",
+        "workflow_state.next_step",
+        "workflow_state.progress"
+      ],
       "auto_progression": false
     },
     "get_current_status": {
       "description": "Get current workflow position and progress",
-      "returns": ["current_step", "previous_step", "next_step", "progress_percentage", "current_agent"]
+      "returns": [
+        "current_step",
+        "previous_step",
+        "next_step",
+        "progress_percentage",
+        "current_agent"
+      ]
     },
     "update_progress": {
       "description": "Update progress within current step",
-      "updates": ["workflow_state.current_task", "workflow_state.progress"]
+      "updates": [
+        "workflow_state.current_task",
+        "workflow_state.progress"
+      ]
     }
   },
   "agent_instructions": {
