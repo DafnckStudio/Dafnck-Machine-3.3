@@ -622,6 +622,24 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ---
 
+## @deep-research-agent
+
+**🔍 Deep Research Agent**
+
+### Collaborates with:
+- @coding-agent
+
+---
+
+## @debugger-agent
+
+**🐞 Debugger Agent**
+
+### Collaborates with:
+- @coding-agent
+
+---
+
 ## @task-deep-manager-agent
 
 **🧠 Task Deep Manager Agent (Full Automation)**
@@ -636,15 +654,6 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 ## @workflow-architect-agent
 
 **🗺️ Workflow Architect Agent**
-
-### Collaborates with:
-- @coding-agent
-
----
-
-## @deep-research-agent
-
-**🔍 Deep Research Agent**
 
 ### Collaborates with:
 - @coding-agent
@@ -671,15 +680,6 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ---
 
-## @ethical-review-agent
-
-**⚖️ Ethical Review Agent**
-
-### Collaborates with:
-- @coding-agent
-
----
-
 ## @brainjs-ml-agent
 
 **🧠 Brain.js ML Agent**
@@ -689,9 +689,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ---
 
-## @debugger-agent
+## @ethical-review-agent
 
-**🐞 Debugger Agent**
+**⚖️ Ethical Review Agent**
 
 ### Collaborates with:
 - @coding-agent

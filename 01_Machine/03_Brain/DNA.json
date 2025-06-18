@@ -3,7 +3,6 @@
     "version": "3.1.0",
     "last_updated": "2025-01-06T22:06:00.000Z"
   },
-  
   "workflow_state": {
     "current_step": "P01-S01-T01-User-Profile-Development",
     "current_phase": "phase_1",
@@ -23,17 +22,18 @@
       "project_type": "web_application"
     }
   },
-  
-  "agents": {
-    "uber-orchestrator-agent": {
+  "agentRegistry": [
+    {
+      "agentName": "uber-orchestrator-agent",
       "id": "ORCH-001",
       "name": "Uber Orchestrator Agent",
       "capabilities": ["workflow_coordination", "state_management", "task_delegation", "progress_tracking"],
       "persona": "system_orchestrator",
-      "phases": ["all"],
+      "phases": ["phase_1"],
       "workflow_steps": ["all"]
     },
-    "nlu-processor-agent": {
+    {
+      "agentName": "nlu-processor-agent",
       "id": "NLU-001",
       "name": "NLU Processor Agent",
       "capabilities": ["user_profiling", "requirement_extraction", "natural_language_processing"],
@@ -41,16 +41,34 @@
       "phases": ["phase_1"],
       "workflow_steps": ["P01-S01-T01-User-Profile-Development"]
     },
-    "elicitation-agent": {
+    {
+      "agentName": "elicitation-agent",
       "id": "ELICIT-001",
       "name": "Requirements Elicitation Agent",
       "capabilities": ["requirement_extraction", "user_interview", "stakeholder_mapping", "requirements_analysis"],
       "persona": "expert_business_analyst",
       "phases": ["phase_1"],
       "workflow_steps": ["P01-S01-T02-Project-Vision-Elicitation", "P01-S01-T03-Success-Criteria-Definition", "P01-S01-T04-Requirement-Analysis", "P01-S01-T05-Technical-Constraints"]
+    },
+    {
+      "agentName": "scribe-agent",
+      "id": "SCRIBE-001",
+      "name": "✍️ Scribe Agent",
+      "capabilities": ["documentation_management", "knowledge_capture", "information_organization", "meeting_notes_capture"],
+      "persona": "documentation_specialist",
+      "phases": ["phase_1"],
+      "workflow_steps": ["all"]
+    },
+    {
+      "agentName": "task-sync-agent",
+      "id": "SYNC-001",
+      "name": " Task Sync Agent",
+      "capabilities": ["task_data_synchronization", "conflict_resolution", "data_integrity_validation", "multi_system_integration"],
+      "persona": "synchronization_specialist",
+      "phases": ["phase_1"],
+      "workflow_steps": ["all"]
     }
-  },
-  
+  ],
   "workflow_progression": {
     "step_sequence": [
       "P01-S01-T01-User-Profile-Development",
@@ -62,7 +80,6 @@
     "auto_progression": false,
     "require_completion_confirmation": true
   },
-  
   "step_definitions": {
     "P01-S01-T01-User-Profile-Development": {
       "agent": "nlu-processor-agent",
@@ -110,7 +127,6 @@
       "next_task": null
     }
   },
-  
   "tracking_functions": {
     "start_workflow": {
       "description": "Initialize workflow tracking for a new project",
@@ -131,7 +147,6 @@
       "updates": ["workflow_state.current_task", "workflow_state.progress"]
     }
   },
-  
   "agent_instructions": {
     "start_command": "When user says 'Let's get started', call start_workflow() and begin with step P01-S01-T01-User-Profile-Development",
     "step_completion": "When step is complete, call complete_step() to move to next step with confirmation",
