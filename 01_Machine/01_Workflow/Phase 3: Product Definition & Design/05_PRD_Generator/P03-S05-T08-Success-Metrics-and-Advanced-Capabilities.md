@@ -7,7 +7,6 @@ title: Success Metrics and Advanced Capabilities
 previous_task: P03-S05-T07
 next_task: P03-S05-T09
 version: 3.1.0
-<<<<<<< HEAD
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
@@ -54,15 +53,3 @@ You are @prd-architect-agent. Your job is to define success metrics and advanced
 - [ ] Are success metrics and advanced capabilities comprehensive?
 - [ ] Are all metrics actionable and measurable?
 - [ ] Have all supporting agents contributed as needed? 
-=======
-source: Step.json
-agent: "@prd-architect-agent"
-orchestrator: "@uber-orchestrator-agent"
----
-## Output Artifacts Checklist
-- _No Output Artifacts section found_
-
-# Previous Task: P03-S05-T07-System-Configuration-and-Risk-Management.md
-# Current Task: P03-S05-T08-Success-Metrics-and-Advanced-Capabilities.md
-# Next Task: P03-S05-T09-PRD-Compilation-and-Template-Compliance.md 
->>>>>>> 8f6410b869c68e2dec6a6798282a4437e78b5f85

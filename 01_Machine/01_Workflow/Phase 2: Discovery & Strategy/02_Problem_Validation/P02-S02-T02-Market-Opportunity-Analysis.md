@@ -11,7 +11,6 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
-<<<<<<< HEAD
 
 ## Super Prompt
 You are @market-research-agent. Your job is to:
@@ -71,8 +70,6 @@ You are @market-research-agent. Your job is to:
 - [ ] Output files saved at correct paths
 - [ ] Step.json and DNA.json updated
 
-=======
->>>>>>> 8f6410b869c68e2dec6a6798282a4437e78b5f85
 ## Output Artifacts Checklist
 - [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Opportunity_Analysis.json — Market_Opportunity_Analysis.json: Market sizing and opportunity assessment (missing)
 - [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Trends_Analysis.md — Market_Trends_Analysis.md: Industry trends and projections (missing)

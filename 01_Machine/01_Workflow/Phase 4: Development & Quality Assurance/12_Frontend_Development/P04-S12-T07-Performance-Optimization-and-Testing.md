@@ -4,18 +4,14 @@ step: S12
 task: T07
 task_id: P04-S12-T07
 title: Performance Optimization and Testing
-<<<<<<< HEAD
 agent:
   - "@coding-agent"
   - "@performance-load-tester-agent"
   - "@test-orchestrator-agent"
-=======
->>>>>>> 8f6410b869c68e2dec6a6798282a4437e78b5f85
 previous_task: P04-S12-T06
 next_task: P04-S12-T08
 version: 3.1.0
 source: Step.json
-<<<<<<< HEAD
 ---
 
 # Super Prompt
@@ -54,11 +50,6 @@ You are @coding-agent, @performance-load-tester-agent, and @test-orchestrator-ag
    - [ ] Documentation and results are clear and complete
    - [ ] Task status updated in workflow tracking files
 
-=======
-agent: "@coding-agent"
-orchestrator: "@uber-orchestrator-agent"
----
->>>>>>> 8f6410b869c68e2dec6a6798282a4437e78b5f85
 ## Output Artifacts Checklist
 - _No Output Artifacts section found_
 
@@ -66,11 +57,4 @@ orchestrator: "@uber-orchestrator-agent"
 Optimize frontend performance and implement comprehensive testing for DafnckMachine v3.1, ensuring fast, reliable, and maintainable user experiences.
 
 # Description
-<<<<<<< HEAD
 This task covers performance profiling, code splitting, lazy loading, and implementation of automated tests (unit, integration, and E2E). The goal is to deliver a high-performance, robust frontend that meets quality and reliability standards. 
-=======
-This task covers performance profiling, code splitting, lazy loading, and implementation of automated tests (unit, integration, and E2E). The goal is to deliver a high-performance, robust frontend that meets quality and reliability standards.
-
-# Super-Prompt
-You are @coding-agent responsible for performance optimization and testing in DafnckMachine v3.1. Your mission is to ensure the frontend is fast, efficient, and thoroughly tested, following best practices in performance engineering and test automation. 
->>>>>>> 8f6410b869c68e2dec6a6798282a4437e78b5f85
