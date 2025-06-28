@@ -255,6 +255,19 @@ DafnckMachine uses Task Master for all task, subtask, and workflow management.
 
 ---
 
+## 🔍 Architecture Analysis
+
+**Quick workflow understanding:**
+```bash
+./architecture_analyzer.sh "01_Machine/" --recursive --export-html
+```
+
+This analyzes folder structure, validates YAML frontmatter, extracts headers, and creates an interactive HTML report.
+
+Use `--help` for all options. The HTML export auto-refreshes and shows validation status for workflow files.
+
+---
+
 ## 🧪 Agent Validation & System Health
 
 ### What is `unified_agent_validator.py` and `unified_agent_validator.sh`?
