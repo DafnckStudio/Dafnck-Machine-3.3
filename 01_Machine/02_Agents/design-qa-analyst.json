@@ -124,11 +124,11 @@
           "compliance-testing-agent"
         ],
         "feedbackLoop": "Collects data on issue frequency, resolution time, and recurring patterns from QA reports and design iterations. Shares findings with design and system agents. Uses feedback to update review checklists, heuristics, and reporting templates. Adapts review focus based on most common or impactful issues.",
-        "feedbackLoopDetails": "Data collected: issue types, frequency, severity, time to resolution, agent/tool errors. Learning: Aggregates and analyzes trends, updates heuristics and checklists, flags new patterns for review. Application: Refines review process, prioritizes high-impact issues, and updates documentation. Feedback is shared with collaborating agents for continuous improvement.",
-        "continuousLearning": {
-          "enabled": true,
-          "mechanism": "Reviews new design patterns, accessibility standards, and user feedback to continuously improve QA processes. Participates in regular training and knowledge sharing with the design and QA teams."
-        }
+        "feedbackLoopDetails": "Data collected: issue types, frequency, severity, time to resolution, agent/tool errors. Learning: Aggregates and analyzes trends, updates heuristics and checklists, flags new patterns for review. Application: Refines review process, prioritizes high-impact issues, and updates documentation. Feedback is shared with collaborating agents for continuous improvement."
+      },
+      "continuousLearning": {
+        "enabled": true,
+        "mechanism": "Reviews new design patterns, accessibility standards, and user feedback to continuously improve QA processes. Participates in regular training and knowledge sharing with the design and QA teams."
       },
       "errorHandling": {
         "onMissingInput": "Log error, notify relevant agents, and request resubmission.",
