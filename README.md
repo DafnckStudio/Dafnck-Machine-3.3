@@ -67,35 +67,6 @@ You can begin your DafnckMachine project with just a rough idea, a few features,
 
 **The workflow is adaptive—add as much or as little as you want to `@Project.md`. The system will fill in the gaps and help you clarify your vision as you go!**
 
----
-
----
-
-## 🏗️ System Architecture
-
-```
-DafnckMachine-V3.1/
-├── 01_Machine/           # The Engine (How to execute)
-│   ├── 01_Workflow/      # Step-by-step execution plans
-│   ├── 02_Agents/        # Agent definitions and capabilities  
-│   ├── 03_Brain/         # Intelligence system (DNA, STEP, GENESIS)
-│   └── 04_Documentation/ # System documentation
-├── 02_Vision/            # The Strategy (What to build)
-│   ├── Project goals and vision
-│   ├── Strategic direction
-│   └── High-level requirements
-└── 03_Project/           # The Output (What gets built)
-    ├── Actual project files
-    ├── Generated code
-    └── Implementation artifacts
-```
-
-- **DNA.json**: Agent registry, capabilities, and communication protocols
-- **STEP.json**: Execution engine with task mapping and state management
-- **GENESIS.json**: Adaptive configuration and learning system
-- **AGENT_INTERFACE.json**: ⚡ Performance-optimized lightweight configs
-
----
 
 ## ⚡ Quick Start
 
