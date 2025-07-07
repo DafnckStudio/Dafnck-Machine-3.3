@@ -1,33 +1,50 @@
 # 📝 Fiche de Définition du Projet
 
 ## 1. Nom du projet
-<!-- Indiquez ici le nom de votre projet. Exemple : "DafnckMachine" -->
+Site Web de Vente de Pommes "PommeDelice"
 
 ## 2. Description du projet
-<!-- Décrivez brièvement le but et la vision du projet. Exemple : "Une plateforme d'agents IA spécialisés pour automatiser la gestion de projets innovants." -->
+Un site web e-commerce attrayant et facile à utiliser, dédié à la vente directe de pommes fraîches de différentes variétés. Le site visera à connecter les producteurs de pommes locaux avec les consommateurs, en mettant en avant la qualité, la fraîcheur et la traçabilité des fruits.
 
 ## 3. Problème à résoudre
-<!-- Expliquez le problème principal que votre projet vise à résoudre. Exemple : "Les équipes peinent à coordonner efficacement les tâches complexes et à capitaliser sur l'intelligence collective." -->
+Les consommateurs ont souvent du mal à trouver des pommes de haute qualité, fraîches et d'origine locale en dehors des marchés saisonniers. Les producteurs, de leur côté, peuvent avoir des difficultés à atteindre une clientèle plus large. Ce site web vise à combler ce fossé.
 
 ## 4. Fonctionnalités principales (Features)
-<!-- Listez les fonctionnalités clés que vous souhaitez intégrer. Exemple :
-- Orchestration d'agents IA
-- Génération automatique de tâches
-- Suivi de l'avancement en temps réel
-- Intégration avec des outils externes (Slack, GitHub, etc.)
--->
+- Catalogue de produits avec différentes variétés de pommes (descriptions, prix, photos).
+- Fiches produits détaillées (origine, producteur, labels de qualité, notes de dégustation).
+- Panier d'achat et processus de commande sécurisé.
+- Gestion des comptes utilisateurs (historique des commandes, adresses).
+- Options de livraison (à domicile, point relais).
+- Système de paiement en ligne intégré.
+- Section blog avec des recettes à base de pommes et des informations sur les producteurs.
+- Responsive design pour une consultation sur mobile et tablette.
+- Interface d'administration pour la gestion des produits, des commandes et des clients.
 
 ## 5. Utilisateurs cibles
-<!-- Décrivez qui utilisera ce projet. Exemple : "Chefs de projet, développeurs, équipes produit, startups innovantes." -->
+- Consommateurs soucieux de la qualité et de l'origine de leurs aliments.
+- Familles cherchant des produits frais et sains.
+- Amateurs de pommes et de cuisine.
+- Producteurs de pommes locaux souhaitant étendre leur marché.
 
 ## 6. Style & Design
-<!-- Précisez le style visuel ou l'ambiance souhaitée (moderne, minimaliste, coloré, etc.), ou des inspirations. Exemple : "Design épuré, palette de couleurs pastel, inspiration Notion et Linear." -->
+- Design moderne, épuré, et chaleureux.
+- Palette de couleurs inspirée par la nature (verts, rouges, bruns doux, beige).
+- Photographies de haute qualité des pommes et des vergers.
+- Navigation intuitive et expérience utilisateur fluide.
+- Inspiration : sites de produits frais, marchés en ligne, épiceries fines.
 
 ## 7. Contraintes ou exigences techniques
-<!-- Mentionnez les technologies à utiliser ou à éviter, les plateformes cibles, ou toute contrainte technique. Exemple : "Doit être compatible Mac/Windows, utiliser React et Node.js, hébergement cloud obligatoire." -->
+- Technologie web moderne (par exemple, React/Vue/Svelte pour le frontend, Node.js/Python/Ruby pour le backend).
+- Base de données pour gérer produits, utilisateurs, commandes.
+- Hébergement cloud scalable.
+- Connexion sécurisée (HTTPS).
+- Intégration avec une solution de paiement (Stripe, PayPal).
+- Potentiellement une API pour des applications futures.
 
 ## 8. Inspirations / Références
-<!-- Ajoutez des liens ou noms de projets similaires qui vous inspirent. Exemple : "Notion, Linear, Asana, Monday.com" -->
+- Sites de vente de produits frais (ex: Farmdrop, La Ruche Qui Dit Oui).
+- Sites de producteurs locaux.
+- Belles épiceries en ligne.
 
 ---
 

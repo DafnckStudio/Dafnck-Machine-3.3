@@ -1,0 +1,228 @@
+{
+  "mcpServers": {
+    "make": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://eu2.make.com/mcp/api/v1/u/YOUR_MAKE_USER_ID/sse"
+      ]
+    },
+    "whatsapp": {
+      "command": "/Library/Frameworks/Python.framework/Versions/3.13/bin/uv",
+      "args": [
+        "--directory",
+        "/path/to/your/whatsapp-mcp-server",
+        "run",
+        "main.py"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "firebase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "firebase-tools@latest",
+        "experimental:mcp"
+      ]
+    },
+    "Roo-Code-Docs Docs": {
+      "url": "https://gitmcp.io/RooCodeInc/Roo-Code-Docs"
+    },
+    "taskmaster-ai": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package=task-master-ai",
+        "task-master-ai"
+      ],
+      "env": {
+        "ANTHROPIC_API_KEY": "YOUR_ANTHROPIC_API_KEY",
+        "PERPLEXITY_API_KEY": "YOUR_PERPLEXITY_API_KEY"
+      }
+    },
+    "ui Docs": {
+      "url": "https://gitmcp.io/shadcn-ui/ui"
+    },
+    "langgraph Docs": {
+      "url": "https://gitmcp.io/langchain-ai/langgraph"
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ]
+    },
+    "mcp-installer": {
+      "command": "npx",
+      "args": [
+        "@anaisbetts/mcp-installer"
+      ],
+      "alwaysAllow": [
+        "install_repo_mcp_server"
+      ]
+    },
+    "three-devtools Docs": {
+      "url": "https://gitmcp.io/threejs/three-devtools"
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--access-token",
+        "YOUR_SUPABASE_ACCESS_TOKEN"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
+      },
+      "alwaysAllow": [
+        "create_repository"
+      ]
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ],
+      "env": {}
+    },
+    "perplexity-mcp": {
+      "env": {
+        "PERPLEXITY_API_KEY": "YOUR_PERPLEXITY_API_KEY",
+        "PERPLEXITY_MODEL": "sonar"
+      },
+      "command": "uvx",
+      "args": [
+        "perplexity-mcp"
+      ]
+    },
+    "stripe": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@stripe/mcp",
+        "--tools=all",
+        "--api-key=YOUR_STRIPE_API_KEY"
+      ],
+      "env": {}
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "env": {}
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "shadcn@canary",
+        "registry:mcp"
+      ],
+      "env": {
+        "REGISTRY_URL": "https://animate-ui.com/r/registry.json"
+      }
+    },
+    "Framelink Figma MCP": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "figma-developer-mcp",
+        "--figma-api-key=YOUR_FIGMA_API_KEY",
+        "--stdio"
+      ]
+    },
+    "ElevenLabs": {
+      "command": "uvx",
+      "args": [
+        "elevenlabs-mcp"
+      ],
+      "env": {
+        "ELEVENLABS_API_KEY": "YOUR_ELEVENLABS_API_KEY"
+      }
+    },
+    "convex": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "convex@latest",
+        "mcp",
+        "start"
+      ]
+    },
+    "mcp-server-firecrawl": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "firecrawl-mcp"
+      ],
+      "env": {
+        "FIRECRAWL_API_KEY": "YOUR_FIRECRAWL_API_KEY"
+      }
+    },
+    "elizaOS Docs": {
+      "url": "https://gitmcp.io/elizaOS/elizaOS"
+    },
+    "everything": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-everything"
+      ]
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    "A2A Docs": {
+      "url": "https://gitmcp.io/google/A2A"
+    },
+    "Pheromind Docs": {
+      "url": "https://gitmcp.io/ChrisRoyse/Pheromind"
+    },
+    "n8n Docs": {
+      "url": "https://gitmcp.io/n8n-io/n8n"
+    },
+    "chakra-ui Docs": {
+      "url": "https://gitmcp.io/chakra-ui/chakra-ui"
+    },
+    "railway": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@jasontanswe/railway-mcp"
+      ],
+      "env": {
+        "RAILWAY_API_TOKEN": "YOUR_RAILWAY_API_TOKEN"
+      }
+    },
+    "@21st-dev/magic": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@21st-dev/magic@latest",
+        "API_KEY=\"YOUR_21ST_DEV_MAGIC_API_KEY\""
+      ]
+    }
+  }
+}
